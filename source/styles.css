@@ -1,0 +1,89 @@
+input {
+  color: rgb(146, 42, 172);
+  border: 2px solid;
+  margin: 10px auto;
+  border-radius: 15px;
+  text-align: center;
+}
+.currentLoc {
+  color: rgb(146, 42, 172);
+  font-size: 12px;
+  border: 2px solid;
+  margin: 5px auto;
+  border-radius: 15px;
+  text-align: center;
+}
+.container {
+  margin: 0 auto;
+  padding: 10px;
+}
+h1 {
+  text-align: center;
+  color: rgb(67, 60, 75);
+  padding-top: 10px;
+}
+h2 {
+  display: block;
+  margin-top: 0 auto;
+  font-size: 30px;
+  height: 100px;
+  max-width: 500;
+  color: rgb(140, 47, 226);
+}
+.cloud-icon {
+  color: rgb(95, 94, 99);
+  font-size: 50px;
+  transition: all 200ms ease-in-out;
+  opacity: 0.7;
+}
+.message {
+  text-align: center;
+  padding: 0;
+  margin: 5px 10px;
+  font-size: 12px;
+}
+
+.days {
+  color: rgb(140, 47, 226);
+  max-width: 70px;
+}
+
+.container {
+  text-align: center;
+}
+.day-night {
+  color: rgb(104, 99, 99);
+}
+.forecast {
+  display: list-item;
+  list-style-type: none;
+  margin: 0 auto;
+}
+.calendar-icon {
+  color: rgb(140, 47, 226);
+}
+.conditions-now {
+  color: rgb(95, 67, 121);
+  padding: 20px auto;
+}
+
+.fahrenheit:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.celcium:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.background {
+  display: block;
+  margin: 0 auto;
+  opacity: 0.7;
+}
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  background-size: 100% 40%;
+  background-repeat: no-repeat;
+  position: relative;
+}
