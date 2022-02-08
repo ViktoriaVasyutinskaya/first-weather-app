@@ -1,40 +1,42 @@
 input {
   color: rgb(146, 42, 172);
-  border: 2px solid;
   margin: 10px auto;
   border-radius: 15px;
+  border: solid 2px #6e607a;
   text-align: center;
+  box-shadow: #6e607a;
+  outline: none;
 }
 .currentLoc {
-  color: rgb(146, 42, 172);
+  color: rgb(104, 99, 99);
   font-size: 12px;
   border: 2px solid;
   margin: 5px auto;
   border-radius: 15px;
   text-align: center;
 }
-.container {
-  margin: 0 auto;
-  padding: 10px;
-}
+
 h1 {
   text-align: center;
   color: rgb(67, 60, 75);
-  padding-top: 10px;
+  padding-top: none;
+  margin: 0;
 }
-h2 {
+.current-weather {
   display: block;
   margin-top: 0 auto;
   font-size: 30px;
-  height: 100px;
+  height: 60px;
   max-width: 500;
-  color: rgb(140, 47, 226);
+  color: rgb(110, 96, 122);
 }
+
 .cloud-icon {
   color: rgb(95, 94, 99);
   font-size: 50px;
   transition: all 200ms ease-in-out;
   opacity: 0.7;
+  margin: 0;
 }
 .message {
   text-align: center;
@@ -44,15 +46,23 @@ h2 {
 }
 
 .days {
-  color: rgb(140, 47, 226);
+  color: rgb(110, 96, 122);
   max-width: 70px;
 }
 
 .container {
   text-align: center;
+  margin: 10px auto;
+  box-sizing: border-box;
+  border: solid 5px rgb(110, 98, 121);
+  max-width: 500px;
+  border-radius: 15px;
+  padding-bottom: 10px;
 }
 .day-night {
   color: rgb(104, 99, 99);
+  height: 30px;
+  margin: 0;
 }
 .forecast {
   display: list-item;
@@ -60,11 +70,13 @@ h2 {
   margin: 0 auto;
 }
 .calendar-icon {
-  color: rgb(140, 47, 226);
+  color: rgb(110, 96, 122);
 }
 .conditions-now {
-  color: rgb(95, 67, 121);
+  color: rgb(110, 96, 122);
   padding: 20px auto;
+  font: italic;
+  text-align: center;
 }
 
 .fahrenheit:hover {
@@ -78,7 +90,19 @@ h2 {
 .background {
   display: block;
   margin: 0 auto;
-  opacity: 0.7;
+  height: 200px;
+  border-radius: 15px;
+}
+.time {
+  margin: 0;
+}
+
+.col-4 {
+  color: rgb(104, 99, 99);
+}
+#humidity,
+#conditions {
+  font-style: italic;
 }
 
 body {
