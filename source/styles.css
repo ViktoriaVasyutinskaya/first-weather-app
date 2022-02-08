@@ -104,7 +104,11 @@ h1 {
 #conditions {
   font-style: italic;
 }
-
+#link {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 10px;
+}
 body {
   font-family: "Roboto Condensed", sans-serif;
   background-size: 100% 40%;
