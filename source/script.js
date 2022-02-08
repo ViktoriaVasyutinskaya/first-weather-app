@@ -11,7 +11,7 @@ let days = [
 let day = days[now.getDay()];
 let hours = now.getHours();
 let min = now.getMinutes();
-let minutes = ("0" + min).substr(-2);
+let minutes = ("0" + min).slice(-2);
 let currentTime = `${day} ${hours}:${minutes}`;
 let time = document.querySelector(".time");
 time.innerHTML = `${currentTime}`;
@@ -54,3 +54,4 @@ function showCurrent(position) {
   let apiUrlCurrent = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&units=metric&appid=${apiKey2}`;
   axios.get(`${apiUrlCurrent}&appid=${apiKey2}`).then(showTemp);
 }
+searchInput("Amsterdam");
